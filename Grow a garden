@@ -1,0 +1,6 @@
+```lua
+-- This code loads a Lua script from a URL and executes it using loadstring
+local scriptUrl = "https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"
+local script = game:HttpGetAsync(scriptUrl)
+loadstring(script)()
+```
